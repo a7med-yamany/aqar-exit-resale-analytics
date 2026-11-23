@@ -1,0 +1,4 @@
+[
+  {"table":"property","name":"idx_property_area_type","columns":["area_ID","type"]},
+  {"table":"listing","name":"idx_listing_year_property","columns":["contract_year","property_ID"]}
+]

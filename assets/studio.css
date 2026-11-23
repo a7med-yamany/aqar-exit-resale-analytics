@@ -1,0 +1,33 @@
+:root{--studio-teal:#007e78;--studio-ink:#172c3d;--studio-muted:#536775;--studio-line:#dfe6eb}
+::selection{background:#c7e9e3;color:#172c3d}
+[data-testid="stAppViewContainer"]{background:#f6f7f9}
+[data-testid="stSidebar"]{background:#fff;border-right:1px solid var(--studio-line)}
+[data-testid="stSidebar"] [data-testid="stSidebarContent"]{padding-top:1.25rem}
+[data-testid="stSidebarLogo"]{height:56px!important;width:auto!important;max-width:230px!important}
+[data-testid="stSidebarNav"] a{border-radius:7px;margin:3px 0;padding:10px 12px}
+[data-testid="stSidebarNav"] a[aria-current="page"]{background:#e5f2f0;color:#006d67;font-weight:600}
+.studio-brand{font-size:2rem;font-weight:700;letter-spacing:-1.6px;line-height:1.2;margin-bottom:7px;color:#172c3d}
+.studio-brand span{color:#007e78}
+.studio-tagline{font-size:.7rem;letter-spacing:1.3px;color:#536775;margin-bottom:2.3rem}
+.studio-breadcrumb{font-size:.78rem;color:#536775;border-bottom:1px solid #dfe6eb;padding-bottom:16px;margin-bottom:26px}
+.studio-side-note{border-top:1px solid #dfe6eb;padding-top:18px;margin-top:30px;color:#536775;font-size:.8rem}
+.studio-side-note strong{color:#007e78;font-weight:500}
+.stMainBlockContainer{max-width:1440px;padding-top:2rem;padding-bottom:3rem}
+h1{letter-spacing:-1.2px!important;font-size:2.3rem!important;font-weight:650!important;padding-top:0!important;line-height:1.18!important}
+h2{letter-spacing:-.5px!important;font-size:1.45rem!important}
+h3{font-size:1.1rem!important;letter-spacing:-.2px!important}
+[data-testid="stCaptionContainer"]{color:#536775}
+[data-testid="stMetric"]{padding:14px 0;border-top:1px solid #dfe6eb;border-bottom:1px solid #dfe6eb}
+[data-testid="stMetricValue"]{font-size:2.1rem;font-weight:500;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+[data-testid="stMetricLabel"]{color:#536775}
+[data-testid="stVerticalBlockBorderWrapper"]>div{border-color:#dfe6eb!important;border-radius:9px!important}
+[data-testid="stForm"]{background:#fff;border:1px solid #dfe6eb;border-radius:9px;padding:22px}
+[data-testid="stBaseButton-primary"]{background:#007e78;border-color:#007e78;border-radius:6px}
+[data-testid="stBaseButton-secondary"]{border-color:#cbd7dd;border-radius:6px}
+[data-testid="stBaseButton-primary"]:hover{background:#006b66;border-color:#006b66}
+button:focus-visible,a:focus-visible{outline:2px solid #007e78!important;outline-offset:3px}
+input,textarea{caret-color:#007e78}
+[data-testid="stDataFrame"]{background:#fff}
+[data-testid="stAlert"]{border-radius:7px}
+@media(max-width:700px){.stMainBlockContainer{padding:1.2rem 1rem 2rem}h1{font-size:1.8rem!important;letter-spacing:-.6px!important}[data-testid="stForm"]{padding:14px}[data-testid="stMetricValue"]{font-size:1.7rem}}
+@media(prefers-reduced-motion:no-preference){[data-testid="stSidebarNav"] a{transition:background .15s ease-out}}
