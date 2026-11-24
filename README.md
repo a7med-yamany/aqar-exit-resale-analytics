@@ -15,7 +15,7 @@ The CA certificate is public certificate material, not a private key.
 The app uses the existing remote Aiven MySQL database; it does not copy data into
 GitHub. Database updates become visible after Refresh data or the five-minute cache
 expiry. SQL and calculation definitions are documented in SQL_GUIDE.md.
-The user-confirmed Talaat Moustafa Group aliases (5, 13, 33 and later 18) are consolidated into ID 38;
+The user-confirmed Talaat Moustafa Group aliases (5, 13, 33, 18 and English spelling IDs 597/1982 and vowel-mark-only duplicate 2492) are consolidated into ID 38;
 project links are unioned to prevent repeated listing attribution. See DEVELOPER_CLEANUP.md.
 Other unconfirmed developer aliases may remain.
 

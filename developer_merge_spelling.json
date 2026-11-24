@@ -1,0 +1,7 @@
+{
+  "canonical_id": 38,
+  "canonical_name": "Talaat Moustafa Group",
+  "aliases": {"597": "Talaat Mostafa", "1982": "Talaat mostafa", "2492": "طلعت مصطفىً"},
+  "authority": "User explicitly confirmed the Talaat Mostafa spelling and previously confirmed the Arabic name طلعت مصطفى belong to Talaat Moustafa Group. ID1982 differs only in capitalization; ID2492 adds only an Arabic vowel mark to the previously approved spelling.",
+  "scope": "Merge exact confirmed spellings and their capitalization/diacritic-only duplicates into existing ID38. No semantic, fuzzy or unrelated identity merges."
+}
