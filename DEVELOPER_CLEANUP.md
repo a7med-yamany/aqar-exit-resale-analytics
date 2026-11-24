@@ -93,3 +93,17 @@ remains the original submission backup and is not rewritten by this cleanup.
 
 Other unconfirmed developer aliases may remain. This cleanup makes no claim that
 all developer identities in the source dataset have been resolved.
+
+## Completion verification (24 November 2026)
+
+Both approved migrations and post-commit dump restores passed. The final independent
+Aiven verification matched every stored cell against all 13 current CSVs, checked
+all 17 FK relations and the strict schema including both performance indexes, and
+verified temporary registration/review writes with rollback. All **49 automated
+tests** passed; all **six interface pages** rendered with the cleaned live backend.
+The 15 protected Milestone 2 artifact hashes remain unchanged.
+
+Final snapshot: **88,246 rows**, including **602 profiles**, **1,004 reviews** and
+**1,503 focus-area links**. None of those genuine website records were removed.
+Summary evidence: `verification/developer-cleanup-summary.json` and
+`verification/developer-merge-final-remote-console.json`.
