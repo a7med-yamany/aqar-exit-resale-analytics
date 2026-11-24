@@ -1,5 +1,10 @@
 # Performance improvements and course demonstration
 
+Dataset follow-up: the 24 November confirmed Talaat Moustafa Group identity cleanup
+unions overlapping developer/project links. Historical timings below were measured
+before this cleanup; SQL formulas and the two performance indexes are unchanged.
+See `DEVELOPER_CLEANUP.md` for the current data and verification evidence.
+
 Implemented and measured on 23 November 2026. The application continues using
 the remote Aiven MySQL database with certificate and hostname verification.
 

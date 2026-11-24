@@ -14,6 +14,13 @@ from the repository's fixed SQL fragments; user values remain bound parameters.
 
 ## Requirement mapping
 
+Developer identity update (24 November 2026): the confirmed Talaat Moustafa Group
+aliases 5/13/33, and subsequently confirmed ID 18, are consolidated into ID 38.
+Their project links are unioned, so
+query 08 counts each associated listing once for that canonical developer.
+Financial formulas and other report queries remain unchanged. See
+`DEVELOPER_CLEANUP.md` and `developer_merge.json` for provenance and verification.
+
 | Requirement | Python operation | SQL file prefix | Behavior |
 |---|---|---|---|
 | 1. Register user | `register_user(email, username, gender, birthdate, area_ids)` | 01 | Profile plus one or more focus areas, atomically; email is the existing PK |
