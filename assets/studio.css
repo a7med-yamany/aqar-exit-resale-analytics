@@ -10,7 +10,7 @@
 .studio-brand span{color:#007e78}
 .studio-tagline{font-size:.7rem;letter-spacing:1.3px;color:#536775;margin-bottom:2.3rem}
 .studio-breadcrumb{font-size:.78rem;color:#536775;border-bottom:1px solid #dfe6eb;padding-bottom:16px;margin-bottom:26px}
-.studio-side-note{border-top:1px solid #dfe6eb;padding-top:18px;margin-top:30px;color:#536775;font-size:.8rem}
+.studio-side-note{padding-top:0;margin-top:0;color:#536775;font-size:.8rem}
 .studio-side-note strong{color:#007e78;font-weight:500}
 .stMainBlockContainer{max-width:1440px;padding-top:2rem;padding-bottom:3rem}
 h1{letter-spacing:-1.2px!important;font-size:2.3rem!important;font-weight:650!important;padding-top:0!important;line-height:1.18!important}
